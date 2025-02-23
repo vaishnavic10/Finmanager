@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/Auth.css"; // Import styles
+import "../styles/Auth.css"; 
 
 const Auth = () => {
   const [isSignup, setIsSignup] = useState(false);
